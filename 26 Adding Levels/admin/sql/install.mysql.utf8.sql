@@ -15,7 +15,6 @@ CREATE TABLE `#__helloworld` (
 	`path`	VARCHAR(400)    NOT NULL DEFAULT '',
 	`lft`	int(11)    NOT NULL DEFAULT '0',
 	`rgt`	int(11)    NOT NULL DEFAULT '0',
-	`language`  CHAR(7)  NOT NULL DEFAULT '*',
 	`ordering`	int(11)    NOT NULL DEFAULT '0',
 	`published` tinyint(4) NOT NULL DEFAULT '1',
 	`catid`	    int(11)    NOT NULL DEFAULT '0',
